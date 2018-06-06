@@ -9,42 +9,64 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+      
+    <link rel="stylesheet" type='text/css' href="style.css">
   </head>
   <body>
 
       <!-- jumbotron -->
-<div class="jumbotron">
-  <h3 class="display-3">Got Focus?</h3>
-  <p class="lead">Stay ahead of the game with a weekly, curated newsletter to improve your life.</p>
-    <img src="TheSignal.png" class="img-fluid" alt="Responsive image">
-  
-    <p class="lead">
       
-      <!-- button -->
-    <form action="https://thesignalproject.us18.list-manage.com/subscribe/post" method="POST">
-    <input type="hidden" name="u" value="563529bc10c3b55e1f25825a7">
-    <input type="hidden" name="id" value="6fbd03a04f">
-  <div class="form-group">
-    <label for="exampleInputEmail1">Email address</label>
-    <input type="email" class="form-control" name="MERGE0" id="MERGE0" aria-describedby="emailHelp" placeholder="Enter email">
-    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-  </div>
-  <div class="form-group">
-    <label for="MERGE1">First Name</label>
-    <input type="text" class="form-control" name="MERGE1" id="MERGE1" placeholder="First Name">
-  </div>
-  <button type="submit" class="btn btn-primary">Submit</button>
-</form>
-  </p>
-      <div class="row">
-  <div class="col-sm-4"></div>
-  <div class="col-sm-4"></div>
-  <div class="col-sm-4"><a href='homepage.html'>
-      <button type="button" class="btn btn-warning">Learn More -> </button>
+<div class="jumbotron" style="background-color:#ffffff">
+        <div class="row align-items-center justify-content-center">
 
-      </a></div>
-</div>
+                <!-- logo image -->
+    <img src="TheSignal.png" class="img-fluid" style="max-width: 50%" alt="Responsive image">
+    </div>
+
+    
+    <!-- top column -->
+    <div class="container align-items-center justify-content-center">
+              <p class="lead text-center">A weekly, curated package of thoughts, quotes, and links to help you be a better human.</p>
+
+
+        </div>
+                  
+            
+    
+            <!-- button -->
+    <div class="container align-items-center justify-content-center mt-4">
+        
+        <form action="https://thesignalproject.us18.list-manage.com/subscribe/post" method="POST">
+            <input type="hidden" name="u" value="563529bc10c3b55e1f25825a7">
+            <input type="hidden" name="id" value="6fbd03a04f">
+        <div class ='form-row no-gutters'>
+
+            <div class="col-sm-5">
+                    <input type="email" class="form-control" name="MERGE0" id="MERGE0" aria-describedby="emailHelp" placeholder="Enter your email">
+                </div>
+           <div class="col-sm-5">
+                    <input type="text" class="form-control" name="MERGE1" id="MERGE1" placeholder="First name">
+                </div>
+                <div class="col-sm-2">
+                    <button type="submit" class="btn btn-primary outline">Submit</button></div>
+            </div>
+        </form>
+    </div>
+        
+
+
+  
+    <div class='mt-5 container'>
+      <div class="row align-items-center justify-content-center">
+          <a href='homepage.html'>
+      <button type="button" class="btn btn-warning">Learn More -> </button></a>
+    </div>
+        </div>
+    
+    
 </div>    
+      
+          </div>
     
       
       
