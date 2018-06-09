@@ -8,12 +8,6 @@ $(document).ready(function() {
     });
     
 
-$('#myModal').modal({ show: false})
-
-setTimeout(function() {
-    $('#myModal').modal('show');  
-},5000)
-        
     
     
     
