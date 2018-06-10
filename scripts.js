@@ -10,7 +10,7 @@ $(document).ready(function() {
 
 //resizing sidebar
 
-$(window).on("load, resize", function() {
+$(window).on("load resize", function() {
     var viewportWidth = $(window).width();
     var viewportHeight = $(window).height();
     if (viewportWidth < 640) {
