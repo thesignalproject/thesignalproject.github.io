@@ -1,9 +1,31 @@
-@import url('https://fonts.googleapis.com/css?family=Arvo|Lato|Oswald')
-    @import url('https://fonts.googleapis.com/css?family=Cardo|Oswald')
+@import url('https://fonts.googleapis.com/css?family=Arvo|Lato|Oswald');
+@import url('https://fonts.googleapis.com/css?family=Cardo|Oswald');
 
-body {
-	font-family: 'Oswald', 'sans-serif';
-}
+            p {
+            font-family: 'Cardo',serif;
+            font-size: 16px;
+        }
+
+        h1,h2,h3,h4,h5,h6 {
+            font-family: 'Oswald',sans-serif;
+        }
+        
+        .navbar-brand {
+            font-size: 30px;
+            font-family: 'Oswald',sans-serif;
+        }
+        
+        .nav-item {
+            font-size: 20px;
+            font-family: 'Oswald',sans-serif;
+        }
+        
+        .logo-img {
+            height: 60px;
+            width: 60px;
+        }
+        
+
 
 
 h1 {
@@ -117,4 +139,84 @@ h1 {
 /**navbar**/
 .navbar-default .navbar-toggle .icon-bar {
     background-color: black;
+}
+
+/*sidebar for sharing buttons */
+            
+            .sidebar-lg {
+                position: fixed;
+                width: 100px;
+                z-index: 1000;
+                left: 0px;
+            }
+
+            .sidebar-wrapper-lg {
+                position:relative;
+                top:100px;
+            }
+
+  
+    
+    .sidebar-wrapper-sm {
+        position:static;
+        margin-left:auto;
+        margin-right:auto;
+        bottom: 100px;
+    }
+
+            .fb-f {
+                color: white;
+            }
+
+            
+            .fb-btn {
+                border-radius: 100%;
+                border: solid;
+                border-width: 2px;
+                border-color:white;
+                background-color: #3B5998;
+                cursor: pointer;
+            }
+            
+            .fb-btn:hover{
+                background-color:white;
+                border-color: #3B5998;
+            }
+            .fb-btn:hover .fb-f{
+                color: #3B5998;
+            }
+
+.twit-icon {
+    color: white;
+}    
+
+            .twit-btn {
+                border-radius: 100%;
+                border: solid;
+                border-width: 2px;
+                border-color:white;
+                background-color: #1dcaff;
+                cursor: pointer;
+            }
+            
+            .twit-btn:hover{
+                background-color:white;
+                border-color: #1dcaff;
+            }
+            .twit-btn:hover .twit-icon{
+                color: #1dcaff;
+            }
+
+/* footer */
+#footer {
+    position: static;
+    bottom: 0;
+}
+
+/* conditionals */
+@media only screen and (max-width: 480px) {
+        .navbar-logotext {
+        font-size: 1px !important;
+        visibility: hidden !important;
+    }
 }
